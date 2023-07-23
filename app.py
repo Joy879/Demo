@@ -63,7 +63,8 @@ with col4:
     st.plotly_chart(fig)
 
 
-
+keys = [species for species, df in species]
+st.write(keys)
 
 
 
